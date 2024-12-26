@@ -1,0 +1,36 @@
+PODS:
+  - connectivity (0.0.1):
+    - Flutter
+    - Reachability
+  - Flutter (1.0.0)
+  - Reachability (3.7.5)
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - connectivity (from `.symlinks/plugins/connectivity/ios`)
+  - Flutter (from `Flutter`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/darwin`)
+
+SPEC REPOS:
+  trunk:
+    - Reachability
+
+EXTERNAL SOURCES:
+  connectivity:
+    :path: ".symlinks/plugins/connectivity/ios"
+  Flutter:
+    :path: Flutter
+  shared_preferences_foundation:
+    :path: ".symlinks/plugins/shared_preferences_foundation/darwin"
+
+SPEC CHECKSUMS:
+  connectivity: c4130b2985d4ef6fd26f9702e886bd5260681467
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  Reachability: 44d15955cdaee6cef699877e1f6647dd6f6698cc
+  shared_preferences_foundation: e2dae3258e06f44cc55f49d42024fd8dd03c590c
+
+PODFILE CHECKSUM: 0805b11bfb13bd44fc55fe52946ce14f22a2998e
+
+COCOAPODS: 1.14.3
